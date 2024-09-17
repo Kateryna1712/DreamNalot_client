@@ -1,0 +1,12 @@
+.footer_container {
+    margin-inline: 50px;
+    margin-top: 150px;
+    border-top: 3px solid #efb558;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    margin: 80px 100px;
+    color: #a8a8a8;
+}

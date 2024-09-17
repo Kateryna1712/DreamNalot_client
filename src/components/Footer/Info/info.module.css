@@ -1,0 +1,27 @@
+.links_container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    transition: color .1s ease-in-out;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: max-content;
+    gap: 16px;
+}
+
+.link:hover {
+    color: rgb(167, 167, 167);
+}

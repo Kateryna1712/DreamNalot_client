@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    z-index: 101;
+    height: 92px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(16, 16, 16, 0.9);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    width: 231px;
+    height: 43.63px;
+}
+
+.header_link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: color .2s ease-in-out;
+}
+
+.header_link:hover {
+    color: rgb(167, 167, 167);
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 754px;
+    height: 24px;
+}
+
+.buttons_list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+._logo {
+    width: 231px;
+}

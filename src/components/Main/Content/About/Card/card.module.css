@@ -1,0 +1,16 @@
+.description {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    margin-top: 34px;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border-radius: 16px;
+    padding: 24px;
+    width: 280px;
+    height: 202px;
+}

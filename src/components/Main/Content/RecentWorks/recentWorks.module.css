@@ -1,0 +1,23 @@
+.title {
+    position: relative;
+    top: 130px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 110%;
+    z-index: 100;
+    margin-left: 150px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 20px;
+}

@@ -1,0 +1,32 @@
+.title {
+    position: relative;
+    top: 130px;
+    padding-left: 112px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 110%;
+    z-index: 100;
+    margin-left: 150px;
+}
+
+.contact_container {
+    width: 1215px;
+    display: grid;
+    grid-template-columns: 6fr 7fr;
+    height: 380px;
+    border: 4px solid #008b49;
+    border-radius: 32px;
+    padding: 44px;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 80px;
+}
